@@ -1,0 +1,203 @@
+.banner {
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .banner .logo {
+    width: 150px;
+  }
+
+  .banner .tagline {
+    font-size: 18px;
+    color: #0072bc;
+    margin-top: 10px;
+  }
+
+  .banner .pharmacy-image {
+    max-width: 100%;
+    border-top: 5px solid #0072bc;
+  }
+
+  .banner .footer-text {
+    background-color: #0072bc;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .corner-design {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    background-color: #0072bc;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  }
+
+  .corner-design img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+  }
+
+  /*DCLUTTER CONTENT*/
+
+  .dclutter-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .dclutter-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0072bc;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dclutter-section h2::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #0072bc;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+
+  .dclutter-section h2::before {
+    top: -10px;
+    left: -20px;
+  }
+
+  .dclutter-section h2::after {
+    top: -10px;
+    right: -20px;
+  }
+
+  .dclutter-section p {
+    font-size: 16px;
+    color: #4b4b4b;
+    margin-top: 15px;
+    line-height: 1.6;
+  }
+
+  .dclutter-section p strong {
+    color: #0072bc;
+    font-weight: bold;
+  }
+
+  /*DCLUTTER-SERVICES-1*/
+
+  .functionality-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 10px;
+  }
+
+  .functionality-section .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0072bc;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .functionality-section .section-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    background-color: #0072bc;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+
+  .functionality-section .highlight-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+
+  .functionality-section .highlight-box .icon {
+    font-size: 40px;
+    color: #0072bc;
+    margin-bottom: 10px;
+  }
+
+  .functionality-section .highlight-box h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .functionality-section .highlight-box p {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0;
+  }
+
+  /*DCLUTTER-SERVICES-2*/
+
+  
+  .functionality-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 10px;
+  }
+
+  .functionality-section .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0072bc;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .functionality-section .section-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    background-color: #0072bc;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+
+  .functionality-section .highlight-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+
+  .functionality-section .highlight-box .icon {
+    font-size: 40px;
+    color: #0072bc;
+    margin-bottom: 10px;
+  }
+
+  .functionality-section .highlight-box h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .functionality-section .highlight-box p {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0;
+  }
+  

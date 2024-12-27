@@ -172,7 +172,7 @@
 	$('.brand-carousel').owlCarousel({
 			loop:true,
 			margin: 10,
-			items:8,
+			items:6,
 			nav: true,
 			autoplay: true,
     autoplaySpeed: 1000,
@@ -199,7 +199,7 @@
 					nav:false
 				},
 				1200:{
-					items: 8,
+					items: 6,
 					nav: true,
 					loop:false
 				}

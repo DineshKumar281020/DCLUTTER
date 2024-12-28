@@ -1,0 +1,579 @@
+/*BANNER*/
+.dclutter-logo {
+    width: 300px;
+}
+
+/*MIDDLE BANNER*/
+.middle-banner {
+    background-color: #319ad6;
+    /* Dark teal background */
+    color: #ffffff;
+    /* White text */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.middle-banner-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.middle-banner-content h2 span {
+    color: #ffffff;
+    /* Highlight color for SMART */
+}
+
+.middle-banner-content p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.middle-banner-image {
+    flex: 1;
+    text-align: center;
+}
+
+.middle-banner-image img {
+    max-width: 400px;
+    height: auto;
+}
+
+/*DUALSMART-COST*/
+
+.dualsmart-section {
+    padding: 40px;
+}
+.dualsmart-section h2 {
+    color: #319ad6;
+    font-weight: bold;
+}
+.dualsmart-section ul {
+    list-style: none;
+    padding: 0;
+}
+.dualsmart-section ul li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.dualsmart-section ul li::before {
+    content: '\2022';
+    color: #319ad6;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.dualsmart-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/*DUALSMART-SOLUTIONS*/
+
+.dualsmart-section {
+    padding: 0 20px 40px;
+}
+.dualsmart-title {
+    color: #319ad6;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.dualsmart-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.dualsmart-card ul {
+    padding-left: 20px;
+}
+.dualsmart-card ul li {
+    margin-bottom: 10px;
+}
+
+/*DUALSMART-FINGERTIPS*/
+
+.dualsmart-fingertips {
+    background-color: #f5f5f5;
+    padding: 0 0 40px;
+    border-radius: 8px;
+  }
+  .dualsmart-title {
+    color: #319ad6;
+    font-weight: bold;
+  }
+  .dualsmart-card {
+    height: 100%;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .dualsmart-card h5 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+
+  /* Media Queries */
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+    .dclutter-logo {
+      width: 200px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 24px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 14px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 250px;
+    }
+  
+    .middle-banner {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* For screens 576px and below */
+  @media (max-width: 576px) {
+    .dclutter-logo {
+      width: 250px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 28px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 16px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 300px;
+    }
+  }
+  
+  /* For screens 768px and below */
+  @media (max-width: 768px) {
+    .dclutter-logo {
+      width: 280px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 30px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 16px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 350px;
+    }
+  }
+  
+  /* For screens 992px and below */
+  @media (max-width: 992px) {
+    .dclutter-logo {
+      width: 300px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 34px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 17px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 375px;
+    }
+  }
+  
+  /* For screens 1200px and below */
+  @media (max-width: 1200px) {
+    .dclutter-logo {
+      width: 300px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 36px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 18px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 400px;
+    }
+  }
+
+  /*DUALSMART-COST*/
+
+  /* For screens 480px and below */
+@media (max-width: 480px) {
+    .dualsmart-section {
+        padding: 20px;
+    }
+
+    .dualsmart-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .dualsmart-section ul li {
+        padding-left: 1rem;
+    }
+
+    .dualsmart-section ul li::before {
+        font-size: 1.2rem;
+    }
+
+    .dualsmart-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+    .dualsmart-section {
+        padding: 25px;
+    }
+
+    .dualsmart-section h2 {
+        font-size: 1.7rem;
+    }
+
+    .dualsmart-section ul li {
+        padding-left: 1.2rem;
+    }
+
+    .dualsmart-section ul li::before {
+        font-size: 1.3rem;
+    }
+
+    .dualsmart-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+    .dualsmart-section {
+        padding: 30px;
+    }
+
+    .dualsmart-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .dualsmart-section ul li {
+        padding-left: 1.3rem;
+    }
+
+    .dualsmart-section ul li::before {
+        font-size: 1.4rem;
+    }
+
+    .dualsmart-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+    .dualsmart-section {
+        padding: 35px;
+    }
+
+    .dualsmart-section h2 {
+        font-size: 2rem;
+    }
+
+    .dualsmart-section ul li {
+        padding-left: 1.4rem;
+    }
+
+    .dualsmart-section ul li::before {
+        font-size: 1.4rem;
+    }
+
+    .dualsmart-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+    .dualsmart-section {
+        padding: 40px;
+    }
+
+    .dualsmart-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .dualsmart-section ul li {
+        padding-left: 1.5rem;
+    }
+
+    .dualsmart-section ul li::before {
+        font-size: 1.5rem;
+    }
+
+    .dualsmart-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/*DUALSMART-SOLUTIONS*/
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+    .dualsmart-section {
+        padding: 0 10px 20px;
+    }
+
+    .dualsmart-title {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .dualsmart-card img {
+        margin-bottom: 10px;
+    }
+
+    .dualsmart-card ul {
+        padding-left: 10px;
+    }
+
+    .dualsmart-card ul li {
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+    }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+    .dualsmart-section {
+        padding: 0 15px 30px;
+    }
+
+    .dualsmart-title {
+        font-size: 1.7rem;
+        margin-bottom: 18px;
+    }
+
+    .dualsmart-card img {
+        margin-bottom: 12px;
+    }
+
+    .dualsmart-card ul {
+        padding-left: 15px;
+    }
+
+    .dualsmart-card ul li {
+        font-size: 1rem;
+        margin-bottom: 9px;
+    }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+    .dualsmart-section {
+        padding: 0 20px 35px;
+    }
+
+    .dualsmart-title {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .dualsmart-card img {
+        margin-bottom: 15px;
+    }
+
+    .dualsmart-card ul {
+        padding-left: 18px;
+    }
+
+    .dualsmart-card ul li {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+    .dualsmart-section {
+        padding: 0 25px 40px;
+    }
+
+    .dualsmart-title {
+        font-size: 2rem;
+        margin-bottom: 22px;
+    }
+
+    .dualsmart-card img {
+        margin-bottom: 18px;
+    }
+
+    .dualsmart-card ul {
+        padding-left: 20px;
+    }
+
+    .dualsmart-card ul li {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+}
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+    .dualsmart-section {
+        padding: 0 30px 45px;
+    }
+
+    .dualsmart-title {
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+
+    .dualsmart-card img {
+        margin-bottom: 20px;
+    }
+
+    .dualsmart-card ul {
+        padding-left: 20px;
+    }
+
+    .dualsmart-card ul li {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+}
+
+/*DUALSMART-FINGERTIPS*/
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+    .dualsmart-fingertips {
+        padding: 0 10px 30px;
+    }
+
+    .dualsmart-title {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dualsmart-card {
+        padding: 1rem;
+    }
+
+    .dualsmart-card h5 {
+        font-size: 1.1rem;
+    }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+    .dualsmart-fingertips {
+        padding: 0 15px 35px;
+    }
+
+    .dualsmart-title {
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .dualsmart-card {
+        padding: 1.2rem;
+    }
+
+    .dualsmart-card h5 {
+        font-size: 1.2rem;
+    }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+    .dualsmart-fingertips {
+        padding: 0 20px 40px;
+    }
+
+    .dualsmart-title {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .dualsmart-card {
+        padding: 1.4rem;
+    }
+
+    .dualsmart-card h5 {
+        font-size: 1.3rem;
+    }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+    .dualsmart-fingertips {
+        padding: 0 25px 45px;
+    }
+
+    .dualsmart-title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .dualsmart-card {
+        padding: 1.5rem;
+    }
+
+    .dualsmart-card h5 {
+        font-size: 1.4rem;
+    }
+}
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+    .dualsmart-fingertips {
+        padding: 0 30px 50px;
+    }
+
+    .dualsmart-title {
+        font-size: 2.2rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .dualsmart-card {
+        padding: 1.6rem;
+    }
+
+    .dualsmart-card h5 {
+        font-size: 1.5rem;
+    }
+}

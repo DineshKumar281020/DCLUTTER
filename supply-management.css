@@ -12,7 +12,7 @@
   }
   
   .banner-heading {
-    color: #007acc;
+    color: #319ad6;
     font-size: 28px;
     font-weight: bold;
   }
@@ -28,7 +28,7 @@
   }
   
   .banner-bottom {
-    background-color: #0072bc;
+    background-color: #319ad6;
     color: #ffffff;
   }
   
@@ -55,7 +55,7 @@
   .dclutter-section h2 {
     font-size: 32px;
     font-weight: bold;
-    color: #0072bc;
+    color: #319ad6;
     position: relative;
     display: inline-block;
   }
@@ -65,7 +65,7 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: #0072bc;
+    background-color: #319ad6;
     clip-path: polygon(0 0, 100% 0, 0 100%);
   }
   
@@ -101,8 +101,8 @@
     text-orientation: mixed;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #007bff;
-    border-left: 4px solid #007bff;
+    color: #319ad6;
+    border-left: 4px solid #319ad6;
     padding-left: 0.5rem;
     text-align: center;
   }
@@ -130,7 +130,7 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #0072bc;
+    color: #319ad6;
   }
   
   .full-cover img {
@@ -140,3 +140,444 @@
     border-radius: 5px;
     margin: 20px;
   }
+
+
+  /* Media Queries */
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .logo {
+    max-width: 200px;
+  }
+
+  .banner-heading {
+    font-size: 20px;
+  }
+
+  .medicine-image {
+    max-width: 200px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .logo {
+    max-width: 250px;
+  }
+
+  .banner-heading {
+    font-size: 22px;
+  }
+
+  .medicine-image {
+    max-width: 250px;
+  }
+
+  .banner {
+    height: 350px;
+  }
+
+  .brand-name {
+    font-size: 24px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .logo {
+    max-width: 280px;
+  }
+
+  .banner-heading {
+    font-size: 24px;
+  }
+
+  .medicine-image {
+    max-width: 280px;
+  }
+
+  .banner {
+    height: 375px;
+  }
+
+  .brand-name {
+    font-size: 26px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+  .logo {
+    max-width: 300px;
+  }
+
+  .banner-heading {
+    font-size: 26px;
+  }
+
+  .medicine-image {
+    max-width: 300px;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+  .brand-name {
+    font-size: 28px;
+  }
+
+  .tagline {
+    font-size: 17px;
+  }
+}
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .logo {
+    max-width: 300px;
+  }
+
+  .banner-heading {
+    font-size: 28px;
+  }
+
+  .medicine-image {
+    max-width: 300px;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+  .brand-name {
+    font-size: 30px;
+  }
+
+  .tagline {
+    font-size: 18px;
+  }
+}
+
+/*DCLUTTER CONTENT*/
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .dclutter-section {
+    padding: 20px 10px;
+  }
+
+  .dclutter-section h2 {
+    font-size: 24px;
+  }
+
+  .dclutter-section h2::before,
+  .dclutter-section h2::after {
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    left: -15px;
+    right: -15px;
+  }
+
+  .dclutter-section p {
+    font-size: 14px;
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .dclutter-section {
+    padding: 25px 15px;
+  }
+
+  .dclutter-section h2 {
+    font-size: 26px;
+  }
+
+  .dclutter-section h2::before,
+  .dclutter-section h2::after {
+    width: 12px;
+    height: 12px;
+    top: -7px;
+    left: -17px;
+    right: -17px;
+  }
+
+  .dclutter-section p {
+    font-size: 15px;
+  }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .dclutter-section {
+    padding: 30px 20px;
+  }
+
+  .dclutter-section h2 {
+    font-size: 28px;
+  }
+
+  .dclutter-section h2::before,
+  .dclutter-section h2::after {
+    width: 13px;
+    height: 13px;
+    top: -8px;
+    left: -18px;
+    right: -18px;
+  }
+
+  .dclutter-section p {
+    font-size: 15px;
+  }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+  .dclutter-section h2 {
+    font-size: 30px;
+  }
+
+  .dclutter-section h2::before,
+  .dclutter-section h2::after {
+    width: 14px;
+    height: 14px;
+    top: -9px;
+    left: -19px;
+    right: -19px;
+  }
+
+  .dclutter-section p {
+    font-size: 16px;
+  }
+}
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .dclutter-section h2 {
+    font-size: 32px;
+  }
+
+  .dclutter-section h2::before,
+  .dclutter-section h2::after {
+    width: 15px;
+    height: 15px;
+    top: -10px;
+    left: -20px;
+    right: -20px;
+  }
+
+  .dclutter-section p {
+    font-size: 16px;
+  }
+}
+
+/*SUPPLY-SERVICES*/
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .supply-services {
+    padding: 20px 0;
+  }
+
+  .supply-header {
+    font-size: 1.2rem;
+    padding-left: 0.3rem;
+  }
+
+  .service-item img {
+    width: 60px;
+  }
+
+  .service-item p {
+    font-size: 0.9rem;
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .supply-services {
+    padding: 30px 0;
+  }
+
+  .supply-header {
+    font-size: 1.3rem;
+    padding-left: 0.4rem;
+  }
+
+  .service-item img {
+    width: 70px;
+  }
+
+  .service-item p {
+    font-size: 0.95rem;
+  }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .supply-services {
+    padding: 35px 0;
+  }
+
+  .supply-header {
+    font-size: 1.4rem;
+    padding-left: 0.45rem;
+  }
+
+  .service-item img {
+    width: 75px;
+  }
+
+  .service-item p {
+    font-size: 1rem;
+  }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+  .supply-services {
+    padding: 38px 0;
+  }
+
+  .supply-header {
+    font-size: 1.45rem;
+    padding-left: 0.48rem;
+  }
+
+  .service-item img {
+    width: 78px;
+  }
+
+  .service-item p {
+    font-size: 1rem;
+  }
+}
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .supply-services {
+    padding: 40px 0;
+  }
+
+  .supply-header {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .service-item img {
+    width: 80px;
+  }
+
+  .service-item p {
+    font-size: 1rem;
+  }
+}
+
+/*SERVICES-IMAGES*/
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .supply-images-section {
+    padding: 20px 0;
+  }
+
+  .supply-images-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .full-cover img {
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .supply-images-section {
+    padding: 25px 0;
+  }
+
+  .supply-images-section h2 {
+    font-size: 2rem;
+  }
+
+  .full-cover img {
+    width: 95%;
+    height: 250px;
+    margin: 15px;
+  }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .supply-images-section {
+    padding: 30px 0;
+  }
+
+  .supply-images-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .full-cover img {
+    width: 92%;
+    height: 270px;
+    margin: 18px;
+  }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+  .supply-images-section {
+    padding: 35px 0;
+  }
+
+  .supply-images-section h2 {
+    font-size: 2.3rem;
+  }
+
+  .full-cover img {
+    width: 90%;
+    height: 280px;
+    margin: 20px;
+  }
+}
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .supply-images-section {
+    padding: 40px 0;
+  }
+
+  .supply-images-section h2 {
+    font-size: 2.4rem;
+  }
+
+  .full-cover img {
+    width: 90%;
+    height: 300px;
+    margin: 20px;
+  }
+}

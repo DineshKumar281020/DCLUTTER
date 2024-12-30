@@ -62,7 +62,7 @@
   }
   .warehouse-section .title {
     text-align: center;
-    color: #007bff;
+    color: #319ad6;
     margin-bottom: 20px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -82,7 +82,7 @@
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     font-size: 1rem;
-    color: #007bff;
+    color: #319ad6;
     font-weight: bold;
     margin-right: 15px;
   }
@@ -107,7 +107,7 @@
   }
   .warehouse-advantages h2 {
     text-align: center;
-    color: #007bff;
+    color: #319ad6;
     font-weight: bold;
     margin-bottom: 30px;
   }

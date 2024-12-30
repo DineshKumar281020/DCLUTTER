@@ -96,7 +96,83 @@
 
   /*MEDIA-QUERIES*/
 
-  /* For screens 480px and below */
+  /* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .dclutter-logo {
+    width: 300px;
+  }
+
+  .middle-banner-content h2 {
+    font-size: 34px;
+  }
+
+  .middle-banner-content p {
+    font-size: 18px;
+  }
+
+  .middle-banner-image img {
+    max-width: 400px;
+  }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+  .dclutter-logo {
+    width: 300px;
+  }
+
+  .middle-banner-content h2 {
+    font-size: 32px;
+  }
+
+  .middle-banner-content p {
+    font-size: 17px;
+  }
+
+  .middle-banner-image img {
+    max-width: 375px;
+  }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .dclutter-logo {
+    width: 280px;
+  }
+
+  .middle-banner-content h2 {
+    font-size: 30px;
+  }
+
+  .middle-banner-content p {
+    font-size: 16px;
+  }
+
+  .middle-banner-image img {
+    max-width: 350px;
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .dclutter-logo {
+    width: 250px;
+  }
+
+  .middle-banner-content h2 {
+    font-size: 28px;
+  }
+
+  .middle-banner-content p {
+    font-size: 16px;
+  }
+
+  .middle-banner-image img {
+    max-width: 300px;
+  }
+}
+
+/* For screens 480px and below */
 @media (max-width: 480px) {
   .dclutter-logo {
     width: 200px;
@@ -121,102 +197,54 @@
   }
 }
 
-/* For screens 576px and below */
-@media (max-width: 576px) {
-  .dclutter-logo {
-    width: 250px;
+
+/*ANESTHESIA-CONTENT*/
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .anesthesia-section {
+    padding: 40px 20px;
   }
 
-  .middle-banner-content h2 {
+  .anesthesia-section h2 {
     font-size: 28px;
   }
 
-  .middle-banner-content p {
+  .anesthesia-section p {
     font-size: 16px;
-  }
-
-  .middle-banner-image img {
-    max-width: 300px;
-  }
-}
-
-/* For screens 768px and below */
-@media (max-width: 768px) {
-  .dclutter-logo {
-    width: 280px;
-  }
-
-  .middle-banner-content h2 {
-    font-size: 30px;
-  }
-
-  .middle-banner-content p {
-    font-size: 16px;
-  }
-
-  .middle-banner-image img {
-    max-width: 350px;
+    line-height: 1.8;
   }
 }
 
 /* For screens 992px and below */
 @media (max-width: 992px) {
-  .dclutter-logo {
-    width: 300px;
-  }
-
-  .middle-banner-content h2 {
-    font-size: 32px;
-  }
-
-  .middle-banner-content p {
-    font-size: 17px;
-  }
-
-  .middle-banner-image img {
-    max-width: 375px;
-  }
-}
-
-/* For screens 1200px and below */
-@media (max-width: 1200px) {
-  .dclutter-logo {
-    width: 300px;
-  }
-
-  .middle-banner-content h2 {
-    font-size: 34px;
-  }
-
-  .middle-banner-content p {
-    font-size: 18px;
-  }
-
-  .middle-banner-image img {
-    max-width: 400px;
-  }
-}
-
-
-/*ANESTHESIA-CONTENT*/
-
-/* For screens 480px and below */
-@media (max-width: 480px) {
   .anesthesia-section {
-    padding: 20px 10px;
+    padding: 40px 20px;
   }
 
   .anesthesia-section h2 {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   .anesthesia-section p {
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .anesthesia-section {
+    padding: 35px 20px;
   }
 
-  .anesthesia-images {
-    margin-top: 20px;
+  .anesthesia-section h2 {
+    font-size: 24px;
+  }
+
+  .anesthesia-section p {
+    font-size: 15px;
+    line-height: 1.75;
   }
 }
 
@@ -240,106 +268,40 @@
   }
 }
 
-/* For screens 768px and below */
-@media (max-width: 768px) {
+/* For screens 480px and below */
+@media (max-width: 480px) {
   .anesthesia-section {
-    padding: 35px 20px;
+    padding: 20px 10px;
   }
 
   .anesthesia-section h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .anesthesia-section p {
-    font-size: 15px;
-    line-height: 1.75;
-  }
-}
-
-/* For screens 992px and below */
-@media (max-width: 992px) {
-  .anesthesia-section {
-    padding: 40px 20px;
+    font-size: 14px;
+    line-height: 1.6;
   }
 
-  .anesthesia-section h2 {
-    font-size: 26px;
-  }
-
-  .anesthesia-section p {
-    font-size: 16px;
-    line-height: 1.8;
-  }
-}
-
-/* For screens 1200px and below */
-@media (max-width: 1200px) {
-  .anesthesia-section {
-    padding: 40px 20px;
-  }
-
-  .anesthesia-section h2 {
-    font-size: 28px;
-  }
-
-  .anesthesia-section p {
-    font-size: 16px;
-    line-height: 1.8;
+  .anesthesia-images {
+    margin-top: 20px;
   }
 }
 
 /*ANESTHESIA-SPECIFICATIONS*/
 
-/* For screens 480px and below */
-@media (max-width: 480px) {
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
   .specifications-section {
-    padding: 20px 10px;
+    padding: 40px 30px;
   }
 
   .spec-title {
+    font-size: 24px;
+  }
+
+  .spec-list li {
     font-size: 16px;
-  }
-
-  .spec-list li {
-    font-size: 14px;
-  }
-
-  .technical-spec {
-    margin-top: 1.5rem;
-  }
-}
-
-/* For screens 576px and below */
-@media (max-width: 576px) {
-  .specifications-section {
-    padding: 30px 15px;
-  }
-
-  .spec-title {
-    font-size: 18px;
-  }
-
-  .spec-list li {
-    font-size: 14px;
-  }
-
-  .technical-spec {
-    margin-top: 1.75rem;
-  }
-}
-
-/* For screens 768px and below */
-@media (max-width: 768px) {
-  .specifications-section {
-    padding: 35px 20px;
-  }
-
-  .spec-title {
-    font-size: 20px;
-  }
-
-  .spec-list li {
-    font-size: 15px;
   }
 
   .technical-spec {
@@ -366,21 +328,59 @@
   }
 }
 
-/* For screens 1200px and below */
-@media (max-width: 1200px) {
+/* For screens 768px and below */
+@media (max-width: 768px) {
   .specifications-section {
-    padding: 40px 30px;
+    padding: 35px 20px;
   }
 
   .spec-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .spec-list li {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .technical-spec {
     margin-top: 2rem;
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .specifications-section {
+    padding: 30px 15px;
+  }
+
+  .spec-title {
+    font-size: 18px;
+  }
+
+  .spec-list li {
+    font-size: 14px;
+  }
+
+  .technical-spec {
+    margin-top: 1.75rem;
+  }
+}
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .specifications-section {
+    padding: 20px 10px;
+  }
+
+  .spec-title {
+    font-size: 16px;
+  }
+
+  .spec-list li {
+    font-size: 14px;
+  }
+
+  .technical-spec {
+    margin-top: 1.5rem;
   }
 }

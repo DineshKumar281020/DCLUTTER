@@ -151,57 +151,58 @@ body{
 
 /*BANNER*/
 
-/* For screens 480px and below */
-@media (max-width: 480px) {
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
   .logo {
-    max-width: 200px;
+    max-width: 290px;
   }
 
   .banner-heading {
-    font-size: 20px;
+    font-size: 27px;
   }
 
   .medicine-image {
-    max-width: 200px;
+    max-width: 290px;
   }
 
   .banner {
-    height: 250px;
+    height: 380px;
   }
 
   .brand-name {
-    font-size: 20px;
+    font-size: 29px;
   }
 
   .tagline {
-    font-size: 14px;
+    font-size: 18px;
   }
+  
 }
 
-/* For screens 576px and below */
-@media (max-width: 576px) {
+/* For screens 992px and below */
+@media (max-width: 992px) {
   .logo {
-    max-width: 250px;
+    max-width: 280px;
   }
 
   .banner-heading {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .medicine-image {
-    max-width: 250px;
+    max-width: 280px;
   }
 
   .banner {
-    height: 300px;
+    height: 370px;
   }
 
   .brand-name {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .tagline {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -232,63 +233,112 @@ body{
   }
 }
 
-/* For screens 992px and below */
-@media (max-width: 992px) {
+
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
   .logo {
-    max-width: 280px;
+    max-width: 250px;
   }
 
   .banner-heading {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .medicine-image {
-    max-width: 280px;
+    max-width: 250px;
   }
 
   .banner {
-    height: 370px;
+    height: 300px;
   }
 
   .brand-name {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .tagline {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
-/* For screens 1200px and below */
-@media (max-width: 1200px) {
+/* For screens 480px and below */
+@media (max-width: 480px) {
   .logo {
-    max-width: 290px;
+    max-width: 200px;
   }
 
   .banner-heading {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .medicine-image {
-    max-width: 290px;
+    max-width: 200px;
   }
 
   .banner {
-    height: 380px;
+    height: 250px;
   }
 
   .brand-name {
-    font-size: 29px;
+    font-size: 20px;
   }
 
   .tagline {
-    font-size: 18px;
+    font-size: 14px;
   }
-  
 }
+
 
 
 /*DCLUTTER CONTENT*/
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+  .dclutter-section h2 {
+    font-size: 32px;
+  }
+
+  .dclutter-section p {
+    font-size: 16px;
+  }
+}
+
+/* For screens 992px and below */
+@media (max-width: 992px) {
+  .dclutter-section h2 {
+    font-size: 30px;
+  }
+
+  .dclutter-section p {
+    font-size: 16px;
+  }
+}
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .dclutter-section h2 {
+    font-size: 28px;
+  }
+
+  .dclutter-section p {
+    font-size: 15px;
+  }
+}
+
+
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .dclutter-section h2 {
+    font-size: 26px;
+  }
+
+  .dclutter-section p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
 
 /* For screens 480px and below */
 @media (max-width: 480px) {
@@ -306,103 +356,22 @@ body{
   }
 }
 
-/* For screens 576px and below */
-@media (max-width: 576px) {
-  .dclutter-section h2 {
-    font-size: 26px;
-  }
 
-  .dclutter-section p {
-    font-size: 15px;
-    line-height: 1.5;
-  }
-}
-
-/* For screens 768px and below */
-@media (max-width: 768px) {
-  .dclutter-section h2 {
-    font-size: 28px;
-  }
-
-  .dclutter-section p {
-    font-size: 15px;
-  }
-}
-
-/* For screens 992px and below */
-@media (max-width: 992px) {
-  .dclutter-section h2 {
-    font-size: 30px;
-  }
-
-  .dclutter-section p {
-    font-size: 16px;
-  }
-}
-
-/* For screens 1200px and below */
-@media (max-width: 1200px) {
-  .dclutter-section h2 {
-    font-size: 32px;
-  }
-
-  .dclutter-section p {
-    font-size: 16px;
-  }
-}
 
 /*SERVICE-SECTION*/
 
-/* For screens 480px and below */
-@media (max-width: 480px) {
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
   .services-section {
-    padding: 20px 10px;
+    padding: 40px 30px;
   }
 
   .service-title {
-    font-size: 18px;
+    font-size: 26px;
   }
 
   .service-box img {
-    max-width: 80px;
-  }
-
-  .service-description {
-    font-size: 12px;
-  }
-}
-
-/* For screens 576px and below */
-@media (max-width: 576px) {
-  .services-section {
-    padding: 25px 15px;
-  }
-
-  .service-title {
-    font-size: 20px;
-  }
-
-  .service-box img {
-    max-width: 90px;
-  }
-
-  .service-description {
-    font-size: 13px;
-  }
-}
-
-/* For screens 768px and below */
-@media (max-width: 768px) {
-  .services-section {
-    padding: 30px 20px;
-  }
-
-  .service-title {
-    font-size: 22px;
-  }
-
-  .service-box img {
-    max-width: 100px;
+    max-width: 110px;
   }
 
   .service-description {
@@ -429,18 +398,18 @@ body{
   }
 }
 
-/* For screens 1200px and below */
-@media (max-width: 1200px) {
+/* For screens 768px and below */
+@media (max-width: 768px) {
   .services-section {
-    padding: 40px 30px;
+    padding: 30px 20px;
   }
 
   .service-title {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .service-box img {
-    max-width: 110px;
+    max-width: 100px;
   }
 
   .service-description {
@@ -448,49 +417,58 @@ body{
   }
 }
 
-/*SERVICE IMAGES*/
-
-@media (max-width: 480px) {
-  .installation-section {
-    padding: 20px 0;
-  }
-
-  .installation-section h2 {
-    font-size: 1.8rem;
-  }
-
-  .full-cover img {
-    height: 200px;
-  }
-}
-
 /* For screens 576px and below */
 @media (max-width: 576px) {
-  .installation-section {
-    padding: 25px 0;
+  .services-section {
+    padding: 25px 15px;
   }
 
-  .installation-section h2 {
-    font-size: 2rem;
+  .service-title {
+    font-size: 20px;
   }
 
-  .full-cover img {
-    height: 250px;
+  .service-box img {
+    max-width: 90px;
+  }
+
+  .service-description {
+    font-size: 13px;
   }
 }
 
-/* For screens 768px and below */
-@media (max-width: 768px) {
+/* For screens 480px and below */
+@media (max-width: 480px) {
+  .services-section {
+    padding: 20px 10px;
+  }
+
+  .service-title {
+    font-size: 18px;
+  }
+
+  .service-box img {
+    max-width: 80px;
+  }
+
+  .service-description {
+    font-size: 12px;
+  }
+}
+
+/*SERVICE IMAGES*/
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
   .installation-section {
-    padding: 30px 0;
+    padding: 40px 0;
   }
 
   .installation-section h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 
   .full-cover img {
-    height: 270px;
+    height: 300px;
   }
 }
 
@@ -509,17 +487,47 @@ body{
   }
 }
 
-/* For screens 1200px and below */
-@media (max-width: 1200px) {
+/* For screens 768px and below */
+@media (max-width: 768px) {
   .installation-section {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   .installation-section h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .full-cover img {
-    height: 300px;
+    height: 270px;
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .installation-section {
+    padding: 25px 0;
+  }
+
+  .installation-section h2 {
+    font-size: 2rem;
+  }
+
+  .full-cover img {
+    height: 250px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .installation-section {
+    padding: 20px 0;
+  }
+
+  .installation-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .full-cover img {
+    height: 200px;
   }
 }

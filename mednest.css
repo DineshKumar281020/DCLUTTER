@@ -1,0 +1,43 @@
+/*BANNER*/
+.dclutter-logo {
+    width: 300px;
+}
+
+/*MIDDLE BANNER*/
+.middle-banner {
+    background-color: #319ad6;
+    /* Dark teal background */
+    color: #ffffff;
+    /* White text */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.middle-banner-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.middle-banner-content h2 span {
+    color: #ffffff;
+    /* Highlight color for SMART */
+}
+
+.middle-banner-content p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.middle-banner-image {
+    flex: 1;
+    text-align: center;
+}
+
+.middle-banner-image img {
+    max-width: 400px;
+    height: auto;
+}

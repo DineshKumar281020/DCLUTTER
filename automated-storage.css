@@ -1,0 +1,541 @@
+.automated-banner {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Top Section */
+  .banner-top {
+    background-color: #e6f7ff;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .banner-heading {
+    color: #319ad6;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .medicine-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Middle Image Section */
+  .banner {
+    position: relative;
+    background: url('images/Automated-Storage/2.jpg') no-repeat center center/cover;
+    height: 400px;
+    max-width: 100%;
+  }
+  
+  /* Bottom Section */
+  .banner-bottom {
+    background-color: #319ad6;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .brand-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  
+    /*WAREHOUSE-CONTENT*/
+  
+    .automated-section {
+      background-color: #f8f9fa;
+      padding: 40px 0;
+    }
+    .automated-section .title {
+      text-align: center;
+      color: #319ad6;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    .automated-section .description {
+      text-align: center;
+      color: #6c757d;
+      margin-bottom: 40px;
+      font-size: 1rem;
+    }
+    .highlights {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .highlights .highlight-title {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-size: 1rem;
+      color: #319ad6;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+    .highlight-item {
+      text-align: center;
+      margin: 0 15px;
+    }
+    .highlight-item img {
+      width: 50px;
+      margin-bottom: 10px;
+    }
+    .highlight-item p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+
+    /*AUTOMATED-NEED*/
+
+    #automated-need {
+        padding: 40px 0;
+    }
+  
+      #automated-need h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #319ad6;
+        margin-bottom: 30px;
+      }
+  
+      #automated-need ul {
+        list-style: none;
+        padding: 0;
+      }
+  
+      #automated-need ul li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 15px;
+      }
+  
+      #automated-need ul li i {
+        color: #319ad6;
+        margin-right: 15px;
+        font-size: 1.5rem;
+      }
+  
+      #automated-need ul li p {
+        margin: 0;
+        font-size: 1rem;
+        color: #319ad6;
+      }
+
+      #automated-need p{
+        color: #319ad6;
+      }
+
+
+/*MEDIA QUERIES*/
+
+/*BANNER*/
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+    .logo {
+      max-width: 290px;
+    }
+  
+    .banner-heading {
+      font-size: 27px;
+    }
+  
+    .medicine-image {
+      max-width: 290px;
+    }
+  
+    .banner {
+      height: 380px;
+    }
+  
+    .brand-name {
+      font-size: 29px;
+    }
+  
+    .tagline {
+      font-size: 18px;
+    }
+    
+  }
+  
+  /* For screens 992px and below */
+  @media (max-width: 992px) {
+    .logo {
+      max-width: 280px;
+    }
+  
+    .banner-heading {
+      font-size: 26px;
+    }
+  
+    .medicine-image {
+      max-width: 280px;
+    }
+  
+    .banner {
+      height: 370px;
+    }
+  
+    .brand-name {
+      font-size: 28px;
+    }
+  
+    .tagline {
+      font-size: 18px;
+    }
+  }
+  
+  /* For screens 768px and below */
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 270px;
+    }
+  
+    .banner-heading {
+      font-size: 24px;
+    }
+  
+    .medicine-image {
+      max-width: 270px;
+    }
+  
+    .banner {
+      height: 350px;
+    }
+  
+    .brand-name {
+      font-size: 26px;
+    }
+  
+    .tagline {
+      font-size: 17px;
+    }
+  }
+  
+  
+  
+  /* For screens 576px and below */
+  @media (max-width: 576px) {
+    .logo {
+      max-width: 250px;
+    }
+  
+    .banner-heading {
+      font-size: 22px;
+    }
+  
+    .medicine-image {
+      max-width: 250px;
+    }
+  
+    .banner {
+      height: 300px;
+    }
+  
+    .brand-name {
+      font-size: 24px;
+    }
+  
+    .tagline {
+      font-size: 16px;
+    }
+  }
+  
+  /* For screens 480px and below */
+  @media (max-width: 480px) {
+    .logo {
+      max-width: 200px;
+    }
+  
+    .banner-heading {
+      font-size: 20px;
+    }
+  
+    .medicine-image {
+      max-width: 200px;
+    }
+  
+    .banner {
+      height: 250px;
+    }
+  
+    .brand-name {
+      font-size: 20px;
+    }
+  
+    .tagline {
+      font-size: 14px;
+    }
+  }
+  
+  /*WAREHOUSE-CONTENT*/
+  
+  /* Extra large screens (1200px and down) */
+  @media (max-width: 1200px) {
+    .automated-section {
+      padding: 35px 0;
+    }
+  
+    .automated-section .title {
+      font-size: 1.6rem;
+    }
+  
+    .automated-section .description {
+      font-size: 0.95rem;
+    }
+  
+    /* .highlights {
+      flex-wrap: wrap;
+    } */
+  
+    .highlight-item img {
+      width: 45px;
+    }
+  
+    .highlight-item p {
+      font-size: 0.85rem;
+    }
+  
+    .highlights .highlight-title {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Large screens (992px and down) */
+  @media (max-width: 992px) {
+    .automated-section {
+      padding: 30px 0;
+    }
+  
+    .automated-section .title {
+      font-size: 1.5rem;
+    }
+  
+    .automated-section .description {
+      font-size: 0.9rem;
+    }
+  
+    .highlight-item img {
+      width: 40px;
+    }
+  
+    .highlight-item p {
+      font-size: 0.8rem;
+    }
+  
+    .highlights .highlight-title {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* Medium screens (768px and down) */
+  @media (max-width: 768px) {
+    .automated-section {
+      padding: 25px 0;
+    }
+  
+    .automated-section .title {
+      font-size: 1.4rem;
+    }
+  
+    .automated-section .description {
+      font-size: 0.85rem;
+    }
+  
+    .highlights {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .highlight-item {
+      margin: 15px 0;
+      text-align: left;
+    }
+  
+    .highlight-item img {
+      width: 35px;
+    }
+  
+    .highlight-item p {
+      font-size: 0.8rem;
+    }
+  
+    .highlights .highlight-title {
+      font-size: 0.8rem;
+      margin-right: 10px;
+    }
+  }
+  
+  /* Small screens (576px and down) */
+  @media (max-width: 576px) {
+    .automated-section {
+      padding: 20px 0;
+    }
+  
+    .automated-section .title {
+      font-size: 1.3rem;
+    }
+  
+    .automated-section .description {
+      font-size: 0.8rem;
+    }
+  
+    .highlights {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .highlight-item img {
+      width: 30px;
+    }
+  
+    .highlight-item p {
+      font-size: 0.75rem;
+    }
+  
+    .highlights .highlight-title {
+      font-size: 0.75rem;
+    }
+  }
+  
+  /* Extra small screens (480px and down) */
+  @media (max-width: 480px) {
+    .automated-section {
+      padding: 15px 0;
+    }
+  
+    .automated-section .title {
+      font-size: 1.2rem;
+    }
+  
+    .automated-section .description {
+      font-size: 0.75rem;
+    }
+  
+    .highlight-item img {
+      width: 25px;
+    }
+  
+    .highlight-item p {
+      font-size: 0.7rem;
+    }
+  
+    .highlights .highlight-title {
+      font-size: 0.7rem;
+    }
+  }
+
+  /*AUTOMATED-NEEDS*/
+
+  /* 1200px and below */
+@media (max-width: 1200px) {
+    #automated-need {
+        padding: 35px 0;
+    }
+
+    #automated-need h2 {
+        font-size: 2.3rem;
+    }
+
+    #automated-need ul li i {
+        font-size: 1.4rem;
+    }
+
+    #automated-need ul li p {
+        font-size: 0.95rem;
+    }
+}
+
+/* 992px and below */
+@media (max-width: 992px) {
+    #automated-need {
+        padding: 30px 0;
+    }
+
+    #automated-need h2 {
+        font-size: 2rem;
+    }
+
+    #automated-need ul li i {
+        font-size: 1.3rem;
+    }
+
+    #automated-need ul li p {
+        font-size: 0.9rem;
+    }
+}
+
+/* 768px and below */
+@media (max-width: 768px) {
+    #automated-need {
+        padding: 25px 0;
+    }
+
+    #automated-need h2 {
+        font-size: 1.8rem;
+    }
+
+    #automated-need ul li i {
+        font-size: 1.2rem;
+    }
+
+    #automated-need ul li p {
+        font-size: 0.85rem;
+    }
+}
+
+/* 576px and below */
+@media (max-width: 576px) {
+    #automated-need {
+        padding: 20px 0;
+    }
+
+    #automated-need h2 {
+        font-size: 1.6rem;
+    }
+
+    #automated-need ul li i {
+        font-size: 1.1rem;
+    }
+
+    #automated-need ul li p {
+        font-size: 0.8rem;
+    }
+}
+
+/* 480px and below */
+@media (max-width: 480px) {
+    #automated-need {
+        padding: 15px 0;
+    }
+
+    #automated-need h2 {
+        font-size: 1.4rem;
+    }
+
+    #automated-need ul li i {
+        font-size: 1rem;
+    }
+
+    #automated-need ul li p {
+        font-size: 0.75rem;
+    }
+}
+  
+      
+  

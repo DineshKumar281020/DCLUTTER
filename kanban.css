@@ -1,0 +1,498 @@
+/*BANNER*/
+.kanban-banner {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .banner-top {
+    background-color: #e6f7ff;
+    max-width: 100%;
+  }
+  
+  .logo {
+    max-width: 300px;
+  }
+  
+  .banner-heading {
+    color: #319ad6;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .medicine-image {
+    max-width: 300px;
+  }
+  
+  .banner {
+    position: relative;
+    background: url('images/PTL-LIGHT-PHARMACY/img1.jpg') no-repeat center center/cover;
+    height: 400px;
+    max-width: 100%;
+  }
+  
+  .banner-bottom {
+    background-color: #319ad6;
+    color: #ffffff;
+    max-width: 100%;
+  }
+  
+  .brand-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  /*KANBAN-CONTENT*/
+
+  .kanban-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .kanban-section h2 {
+    color: #319ad6;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .kanban-section p {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+  }
+
+  .services-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  .service-title {
+    font-weight: bold;
+    color: #319ad6;
+    margin-bottom: 20px;
+  }
+  .service-box {
+    text-align: center;
+    padding: 20px;
+  }
+  .service-box img {
+    max-width: 110px;
+    margin-bottom: 15px;
+  }
+  .service-description {
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  /*KANBAN CYCLE*/
+
+  #kanban-cycle{
+    padding: 0 0 40px;
+  }
+
+  #kanban-cycle h2{
+    font-weight: bold;
+    color: #319ad6;
+  }
+
+  #kanban-cycle .card {
+    border-width: 2px;
+    border-radius: 10px;
+  }
+  
+  #kanban-cycle .card img {
+    height: 100px;
+  }
+  
+  #kanban-cycle .alert {
+    background-color: #fff5f5;
+    border: 1px solid #f5c6cb;
+  }
+  
+
+  /*MEDIA QUERIES*/
+
+/*BANNER*/
+
+/* For screens 1200px and below */
+@media (max-width: 1200px) {
+    .logo {
+      max-width: 290px;
+    }
+  
+    .banner-heading {
+      font-size: 27px;
+    }
+  
+    .medicine-image {
+      max-width: 290px;
+    }
+  
+    .banner {
+      height: 380px;
+    }
+  
+    .brand-name {
+      font-size: 29px;
+    }
+  
+    .tagline {
+      font-size: 18px;
+    }
+    
+  }
+  
+  /* For screens 992px and below */
+  @media (max-width: 992px) {
+    .logo {
+      max-width: 280px;
+    }
+  
+    .banner-heading {
+      font-size: 26px;
+    }
+  
+    .medicine-image {
+      max-width: 280px;
+    }
+  
+    .banner {
+      height: 370px;
+    }
+  
+    .brand-name {
+      font-size: 28px;
+    }
+  
+    .tagline {
+      font-size: 18px;
+    }
+  }
+  
+  /* For screens 768px and below */
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 270px;
+    }
+  
+    .banner-heading {
+      font-size: 24px;
+    }
+  
+    .medicine-image {
+      max-width: 270px;
+    }
+  
+    .banner {
+      height: 350px;
+    }
+  
+    .brand-name {
+      font-size: 26px;
+    }
+  
+    .tagline {
+      font-size: 17px;
+    }
+  }
+  
+  
+  
+  /* For screens 576px and below */
+  @media (max-width: 576px) {
+    .logo {
+      max-width: 250px;
+    }
+  
+    .banner-heading {
+      font-size: 22px;
+    }
+  
+    .medicine-image {
+      max-width: 250px;
+    }
+  
+    .banner {
+      height: 300px;
+    }
+  
+    .brand-name {
+      font-size: 24px;
+    }
+  
+    .tagline {
+      font-size: 16px;
+    }
+  }
+  
+  /* For screens 480px and below */
+  @media (max-width: 480px) {
+    .logo {
+      max-width: 200px;
+    }
+  
+    .banner-heading {
+      font-size: 20px;
+    }
+  
+    .medicine-image {
+      max-width: 200px;
+    }
+  
+    .banner {
+      height: 250px;
+    }
+  
+    .brand-name {
+      font-size: 20px;
+    }
+  
+    .tagline {
+      font-size: 14px;
+    }
+  }
+  
+  /*KANBAN-CONTENT*/
+  
+  /* 1200px and below */
+  @media (max-width: 1200px) {
+    .kanban-section h2 {
+        font-size: 1.7rem;
+    }
+  
+    .kanban-section p {
+        font-size: 0.95rem;
+    }
+  
+    .service-title {
+        font-size: 1.4rem;
+    }
+  
+    .service-box img {
+        max-width: 100px;
+    }
+  
+    .service-description {
+        font-size: 13px;
+    }
+  }
+  
+  /* 992px and below */
+  @media (max-width: 992px) {
+    .kanban-section h2 {
+        font-size: 1.6rem;
+    }
+  
+    .kanban-section p {
+        font-size: 0.9rem;
+    }
+  
+    .service-title {
+        font-size: 1.3rem;
+    }
+  
+    .service-box img {
+        max-width: 90px;
+    }
+  
+    .service-description {
+        font-size: 12px;
+    }
+  }
+  
+  /* 768px and below */
+  @media (max-width: 768px) {
+    .kanban-section h2 {
+        font-size: 1.4rem;
+    }
+  
+    .kanban-section p {
+        font-size: 0.85rem;
+    }
+  
+    .services-section {
+        padding: 30px 15px;
+    }
+  
+    .service-title {
+        font-size: 1.2rem;
+    }
+  
+    .service-box img {
+        max-width: 80px;
+    }
+  
+    .service-description {
+        font-size: 11px;
+    }
+  }
+  
+  /* 576px and below */
+  @media (max-width: 576px) {
+    .kanban-section h2 {
+        font-size: 1.3rem;
+    }
+  
+    .kanban-section p {
+        font-size: 0.8rem;
+    }
+  
+    .services-section {
+        padding: 25px 10px;
+    }
+  
+    .service-title {
+        font-size: 1.1rem;
+    }
+  
+    .service-box img {
+        max-width: 70px;
+    }
+  
+    .service-description {
+        font-size: 10px;
+    }
+  }
+  
+  /* 480px and below */
+  @media (max-width: 480px) {
+    .kanban-section h2 {
+        font-size: 1.2rem;
+    }
+  
+    .kanban-section p {
+        font-size: 0.75rem;
+    }
+  
+    .services-section {
+        padding: 20px 5px;
+    }
+  
+    .service-title {
+        font-size: 1rem;
+    }
+  
+    .service-box img {
+        max-width: 60px;
+    }
+  
+    .service-description {
+        font-size: 9px;
+    }
+  }
+  
+
+  /*KANBAN-CYLE*/
+
+  /* 1200px and below */
+@media (max-width: 1200px) {
+
+    #kanban-cycle {
+        padding: 0 0 35px;
+    }
+
+    #kanban-cycle .card {
+        border-width: 1.8px;
+        border-radius: 9px;
+    }
+
+    #kanban-cycle .card img {
+        height: 90px;
+    }
+
+    #kanban-cycle .alert {
+        border-width: 1px;
+    }
+}
+
+/* 992px and below */
+@media (max-width: 992px) {
+
+    #kanban-cycle {
+        padding: 0 0 30px;
+    }
+
+    #kanban-cycle .card {
+        border-width: 1.5px;
+        border-radius: 8px;
+    }
+
+    #kanban-cycle .card img {
+        height: 80px;
+    }
+
+    #kanban-cycle .alert {
+        border-width: 0.9px;
+    }
+}
+
+/* 768px and below */
+@media (max-width: 768px) {
+
+    #kanban-cycle {
+        padding: 0 0 25px;
+    }
+
+    #kanban-cycle .card {
+        border-width: 1.2px;
+        border-radius: 7px;
+    }
+
+    #kanban-cycle .card img {
+        height: 70px;
+    }
+
+    #kanban-cycle .alert {
+        border-width: 0.8px;
+    }
+}
+
+/* 576px and below */
+@media (max-width: 576px) {
+
+    #kanban-cycle {
+        padding: 0 0 20px;
+    }
+
+    #kanban-cycle .card {
+        border-width: 1px;
+        border-radius: 6px;
+    }
+
+    #kanban-cycle .card img {
+        height: 60px;
+    }
+
+    #kanban-cycle .alert {
+        border-width: 0.7px;
+    }
+}
+
+/* 480px and below */
+@media (max-width: 480px) {
+
+    #kanban-cycle {
+        padding: 0 0 15px;
+    }
+    
+    #kanban-cycle .card {
+        border-width: 0.8px;
+        border-radius: 5px;
+    }
+
+    #kanban-cycle .card img {
+        height: 50px;
+    }
+
+    #kanban-cycle .alert {
+        border-width: 0.6px;
+    }
+}

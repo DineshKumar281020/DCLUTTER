@@ -1,0 +1,121 @@
+/*BANNER*/
+.dclutter-logo {
+    width: 300px;
+}
+
+/*MIDDLE BANNER*/
+.middle-banner {
+    background-color: #319ad6;
+    /* Dark teal background */
+    color: #ffffff;
+    /* White text */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.middle-banner-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.middle-banner-content h2 span {
+    color: #ffffff;
+    /* Highlight color for SMART */
+}
+
+.middle-banner-content p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.middle-banner-image {
+    flex: 1;
+    text-align: center;
+}
+
+.middle-banner-image img {
+    max-width: 400px;
+    height: auto;
+}
+
+/*NARCSAFE-CONTENT*/
+
+#narcsafe-content {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .text-muted {
+    color: #666;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #narcsafe-content p {
+    line-height: 1.8;
+  }
+  
+  .narcsafe-3 {
+    max-height: 1100px;
+    object-fit: cover;
+  }
+
+  /*NARCSAFE-FEATURES*/
+
+  #narcsafe-features {
+    padding: 0 0 40px;
+  }
+  
+  .features-header {
+    background-color: #319ad6;
+}
+
+  .features-header h2{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .features-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .features-list li::before {
+    content: "•";
+    color: #319ad6;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  

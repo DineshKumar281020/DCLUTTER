@@ -54,7 +54,7 @@
   }
   
   
-    /*WAREHOUSE-CONTENT*/
+    /*AUTOMATED-CONTENT*/
   
     .automated-section {
       background-color: #f8f9fa;
@@ -283,7 +283,7 @@
     }
   }
   
-  /*WAREHOUSE-CONTENT*/
+  /*AUTOMATED-CONTENT*/
   
   /* Extra large screens (1200px and down) */
   @media (max-width: 1200px) {

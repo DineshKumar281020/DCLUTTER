@@ -117,5 +117,298 @@
     left: 0;
     top: 0;
   }
+
+  /* Media Queries */
+
+   /* For screens 1200px and below */
+   @media (max-width: 1200px) {
+    .dclutter-logo {
+      width: 300px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 36px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 18px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 400px;
+    }
+  }
+
+  /* For screens 992px and below */
+  @media (max-width: 992px) {
+    .dclutter-logo {
+      width: 300px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 34px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 17px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 375px;
+    }
+  }
+
+  /* For screens 768px and below */
+  @media (max-width: 768px) {
+    .dclutter-logo {
+      width: 280px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 30px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 16px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 350px;
+    }
+  }
+
+  /* For screens 576px and below */
+  @media (max-width: 576px) {
+    .dclutter-logo {
+      width: 250px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 28px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 16px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 300px;
+    }
+  }
+
+  /* For screens 480px and below */
+@media (max-width: 480px) {
+    .dclutter-logo {
+      width: 200px;
+    }
+  
+    .middle-banner-content h2 {
+      font-size: 24px;
+    }
+  
+    .middle-banner-content p {
+      font-size: 14px;
+    }
+  
+    .middle-banner-image img {
+      max-width: 250px;
+    }
+  
+    .middle-banner {
+      flex-direction: column;
+      text-align: center;
+      
+    }
+  }
+
+ /*NARCSAFE-CONTENT*/
+
+  /* 1200px and below */
+@media (max-width: 1200px) {
+  #narcsafe-content {
+      padding: 35px 0;
+  }
+
+  .section-title {
+      font-size: 1.7rem;
+  }
+
+  .section-subtitle {
+      font-size: 1.1rem;
+  }
+
+  .narcsafe-3 {
+      max-height: 1000px;
+  }
+}
+
+/* 992px and below */
+@media (max-width: 992px) {
+  #narcsafe-content {
+      padding: 30px 0;
+  }
+
+  .section-title {
+      font-size: 1.6rem;
+  }
+
+  .section-subtitle {
+      font-size: 1rem;
+  }
+
+  .narcsafe-3 {
+      max-height: 900px;
+  }
+}
+
+/* 768px and below */
+@media (max-width: 768px) {
+  #narcsafe-content {
+      padding: 25px 0;
+  }
+
+  .section-title {
+      font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+      font-size: 0.95rem;
+  }
+
+  .narcsafe-3 {
+      max-height: 800px;
+  }
+}
+
+/* 576px and below */
+@media (max-width: 576px) {
+  #narcsafe-content {
+      padding: 20px 0;
+  }
+
+  .section-title {
+      font-size: 1.4rem;
+  }
+
+  .section-subtitle {
+      font-size: 0.9rem;
+  }
+
+  .narcsafe-3 {
+      max-height: 700px;
+  }
+}
+
+/* 480px and below */
+@media (max-width: 480px) {
+  #narcsafe-content {
+      padding: 15px 0;
+  }
+
+  .section-title {
+      font-size: 1.3rem;
+  }
+
+  .section-subtitle {
+      font-size: 0.85rem;
+  }
+
+  .narcsafe-3 {
+      max-height: 600px;
+  }
+}
+
+
+/*NARCSAFE-FEATURES*/
+
+/* 1200px and below */
+@media (max-width: 1200px) {
+  #narcsafe-features {
+      padding: 0 0 35px;
+  }
+
+  .features-header h2 {
+      font-size: 1.4rem;
+  }
+
+  .features-list li {
+      font-size: 0.95rem;
+  }
+}
+
+/* 992px and below */
+@media (max-width: 992px) {
+  #narcsafe-features {
+      padding: 0 0 30px;
+  }
+
+  .features-header h2 {
+      font-size: 1.3rem;
+  }
+
+  .features-list li {
+      font-size: 0.9rem;
+  }
+}
+
+/* 768px and below */
+@media (max-width: 768px) {
+  #narcsafe-features {
+      padding: 0 0 25px;
+  }
+
+  .features-header h2 {
+      font-size: 1.2rem;
+  }
+
+  .features-list li {
+      font-size: 0.85rem;
+      padding-left: 20px;
+  }
+
+  .features-list li::before {
+      font-size: 1rem;
+  }
+}
+
+/* 576px and below */
+@media (max-width: 576px) {
+  #narcsafe-features {
+      padding: 0 0 20px;
+  }
+
+  .features-header h2 {
+      font-size: 1.1rem;
+  }
+
+  .features-list li {
+      font-size: 0.8rem;
+      padding-left: 18px;
+  }
+
+  .features-list li::before {
+      font-size: 0.9rem;
+  }
+}
+
+/* 480px and below */
+@media (max-width: 480px) {
+  #narcsafe-features {
+      padding: 0 0 15px;
+  }
+
+  .features-header h2 {
+      font-size: 1rem;
+  }
+
+  .features-list li {
+      font-size: 0.75rem;
+      padding-left: 15px;
+  }
+
+  .features-list li::before {
+      font-size: 0.8rem;
+  }
+}
   
   

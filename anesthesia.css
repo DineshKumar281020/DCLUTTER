@@ -266,6 +266,10 @@
   .anesthesia-images {
     margin-top: 25px;
   }
+
+  .anesthesia-images img{
+    margin-bottom: 15px;
+  } 
 }
 
 /* For screens 480px and below */
